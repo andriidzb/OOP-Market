@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 290px;
+  display: block;
+  background: #f0f0f0;
+}
+
+table tr, td {
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+table tr:nth-child(3) {
+  display: inline-block;
+  margin: 0px;
+}
+
+table td:last-child {
+  display: inline-block;
+  margin: 0px;
+}
