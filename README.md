@@ -1,5 +1,7 @@
 # OOP-Market
 
+* * *
+
 ## How to use "Market" :
 * you can find your item with command item.find(), for example Milk.find(). If there are Milk, program will say where you can find it
 * Milk.getWeight() will show weight of Milk
