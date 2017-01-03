@@ -8,6 +8,8 @@
 
 * * *
 
+## Add new product: 
+
 Also you can add new items in market with command: var itemName = new Item(name, weight, price, place).
  
 For example: var Salt = new Item('Salt', 2, 10.5, '1st room')
