@@ -56,6 +56,7 @@ Item.prototype.buyItem = function () {
         alert("You don't have enough money!");
     } else {
       remainder = userMoney - this.price;
+      remainder = remainder.toFixed(2);
       alert("Take your remainder: " + remainder + " grn");
       showBill(name, price, remainder);
     }
